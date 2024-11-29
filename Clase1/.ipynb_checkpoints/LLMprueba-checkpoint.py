@@ -1,10 +1,7 @@
 import openai
 from openai import OpenAI
-import os
 
-api = os.getenv("OPENAI_API_KEY")
-
-openai.api_key = api
+openai.api_key = ""
 
 system_response = '''Hacé de cuenta que sos un profesor de historia
                 encargado de mantener una conversación formal con el que
